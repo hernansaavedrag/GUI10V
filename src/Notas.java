@@ -232,7 +232,7 @@ public class Notas extends javax.swing.JFrame {
             }
         } catch (NumberFormatException e) {
             JOptionPane.showMessageDialog(this, "Ud No esta ingresando números o elementos vacíos", "Error", 2);
-            
+            System.out.println("Hola");
         }
 
 
