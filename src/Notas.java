@@ -1,5 +1,5 @@
 
-import java.awt.HeadlessException;
+
 import javax.swing.JOptionPane;
 
 /*
@@ -231,8 +231,8 @@ public class Notas extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(this, "la suma de sus porcentajes no es 100", "Porcentaje", 0);
             }
         } catch (NumberFormatException e) {
-            JOptionPane.showMessageDialog(this, "Ud No esta ingresando números o elementos vacíos", "Error", 2);
-            System.out.println("Hola");
+            JOptionPane.showMessageDialog(this, "Ud No esta ingresando números o elementos vacíos", "Error", 0);
+            //System.out.println("Hola");
         }
 
 
